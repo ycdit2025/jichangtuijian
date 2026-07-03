@@ -7,8 +7,6 @@
     <title>2026年最新便宜好用机场推荐|科学上网机场整理|2026稳定机场推荐</title>
     <meta name="description" content="本站为您精选2026最新好用机场推荐列表，包含超高性价比的便宜机场、稳定高速的翻墙代理以及提供免费试用的机场推荐，助您畅快连接全球网络。">
     <meta name="keywords" content="机场推荐,便宜机场,免费机场,便宜好用机场推荐,2026最新好用机场推荐,网络加速器,翻墙梯子,SSR,V2ray,Clash专线机场,机场客户端下载,专线机场,anytls机场,中转机场推荐,直连机场推荐">
-    <!-- =============================== -->
-
     <style>
         :root {
             --bg-color: #f4f7f6;
@@ -49,7 +47,7 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 0 auto;
         }
 
@@ -97,33 +95,34 @@
         }
 
         .category-section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         .category-title {
             font-size: 1.4rem;
             border-left: 4px solid var(--primary-color);
             padding-left: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 18px;
         }
 
+        /* 一行一个列表布局 */
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
+            grid-template-columns: 1fr;
+            gap: 16px;
         }
 
         .card {
             background-color: var(--card-bg);
             border-radius: 12px;
-            padding: 18px;
+            padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             transition: transform 0.2s, box-shadow 0.2s;
             text-decoration: none;
             color: inherit;
             display: flex;
             align-items: flex-start;
-            gap: 14px;
+            gap: 16px;
         }
 
         .card:hover {
@@ -132,15 +131,15 @@
         }
 
         .card-logo {
-            width: 48px;
-            height: 48px;
-            border-radius: 10px;
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
             background-color: var(--icon-bg);
             display: flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             font-weight: bold;
             color: var(--primary-color);
             overflow: hidden;
@@ -159,21 +158,19 @@
 
         .card-title {
             font-weight: bold;
-            font-size: 1.15rem;
-            margin-bottom: 4px;
+            font-size: 1.2rem;
+            margin-bottom: 6px;
             color: var(--primary-color);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }
 
-        /* ======= 优化：描述文字完整显示 ======= */
+        /* 描述文字完整显示 */
         .card-desc {
-            font-size: 0.92rem;
+            font-size: 0.95rem;
             color: var(--desc-color);
-            word-break: break-all; /* 防止长数字或纯英文字符串撑破卡片 */
-            white-space: normal;  /* 允许自然换行 */
-            display: block;       /* 恢复块级表现，去除多行截断限制 */
+            word-break: break-all;
+            white-space: normal;
+            display: block;
+            line-height: 1.5;
         }
     </style>
 </head>
@@ -181,7 +178,7 @@
 
 <div class="container">
     <header>
-        <h1 id="site-title">2026年最新便宜好用机场推荐|科学上网机场整理|2026稳定机场推荐</h1>
+        <h1 id="site-title">2026最新好用机场推荐</h1>
         <p id="site-subtitle">全网精选便宜机场、免费机场及高性价比网络加速服务列表</p>
         
         <div class="download-container">
@@ -192,8 +189,7 @@
     </header>
 
     <main id="main-content">
-        <!-- 内容由 JS 动态注入 -->
-    </main>
+        </main>
 </div>
 
 <script>
@@ -230,7 +226,7 @@
                 links: [
                     { 
                         title: "奶昔机场", 
-                        logo: "",  // 留空，会自动生成一个以“自”字为首字的图标
+                        logo: "",  // 留空，系统会自动识别名称生成首字图标“奶”
                         desc: "Nexitally 奶昔机场是一家成立于2017年的翻墙机场，自主研发面板，高端大机场，主打流畅稳定，不过近来也是受到针对，稳定性有所下降，如果想要高端体验，可以试试奶昔机场", 
                         url: "https://nxonearth.com/" 
                     }
