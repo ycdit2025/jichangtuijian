@@ -20,4 +20,4 @@
 
 喵子科学站专为海外追剧，跨境电商等需求涉及，支持macOS、iOS、Android、Windows等多平台，解锁流媒体.
 
-* 机场地址: <a href="https://fly.catcottage.us/" target="_blank">喵子科学站</a>
+* 机场地址: <a href="https://www.mzkxz-invite.us/auth/register?code=wl7y" target="_blank">喵子科学站</a>
