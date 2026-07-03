@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>2026年最新便宜好用机场推荐|科学上网机场整理|2026稳定机场推荐</title>
-    <meta name="description" content="为您精选2026最新好用机场推荐列表，包含超高性价比的便宜机场、稳定高速的翻墙代理以及提供免费试用的机场推荐，助您畅快连接全球网络。">
-    <meta name="keywords" content="机场推荐,便宜机场,免费机场,便宜好用机场推荐,2026最新好用机场推荐,专线机场,anytls机场,中转机场推荐,直连机场推荐,网络加速器,翻墙梯子,SSR,V2ray,Clash专线机场">
+    <meta name="description" content="本站为您精选2026最新好用机场推荐列表，包含超高性价比的便宜机场、稳定高速的翻墙代理以及提供免费试用的机场推荐，助您畅快连接全球网络。">
+    <meta name="keywords" content="机场推荐,便宜机场,免费机场,便宜好用机场推荐,2026最新好用机场推荐,网络加速器,翻墙梯子,SSR,V2ray,Clash专线机场,机场客户端下载,专线机场,anytls机场,中转机场推荐,直连机场推荐">
+    <!-- =============================== -->
 
     <style>
         :root {
@@ -69,7 +70,7 @@
             font-size: 1.1rem;
         }
 
-        /* 美化后的单一客户端下载按钮样式 */
+        /* 客户端下载按钮样式 */
         .download-container {
             display: inline-block;
         }
@@ -166,15 +167,14 @@
             text-overflow: ellipsis;
         }
 
+        /* ======= 优化：描述文字完整显示 ======= */
         .card-desc {
             font-size: 0.92rem;
             color: var(--desc-color);
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-        }    
+            word-break: break-all; /* 防止长数字或纯英文字符串撑破卡片 */
+            white-space: normal;  /* 允许自然换行 */
+            display: block;       /* 恢复块级表现，去除多行截断限制 */
+        }
     </style>
 </head>
 <body>
@@ -183,6 +183,7 @@
     <header>
         <h1 id="site-title">2026年最新便宜好用机场推荐|科学上网机场整理|2026稳定机场推荐</h1>
         <p id="site-subtitle">全网精选便宜机场、免费机场及高性价比网络加速服务列表</p>
+        
         <div class="download-container">
             <a href="https://dl.chaidongqiang.com" class="download-btn" target="_blank" rel="noopener noreferrer">
                 <span>📥 客户端下载</span>
@@ -197,12 +198,8 @@
 
 <script>
     // ================= 机场数据配置区域 =================
-    // logo 字段支持三种形式：
-    // 1. 留空 "" -> 自动获取名称第一个字作为图标 (懒人推荐)
-    // 2. 纯 Emoji -> 如 "🚀"、"⚡" (方便且好看)
-    // 3. 图片 URL -> 如 "https://example.com/logo.png"
     const config = {
-        title: "2026年最新便宜好用机场推荐|科学上网机场整理|2026稳定机场推荐",
+        title: "2026最新好用机场推荐",
         subtitle: "全网精选便宜机场、免费机场及高性价比网络加速服务列表",
         categories: [
             {
@@ -270,16 +267,12 @@
                 card.rel = "noopener noreferrer";
                 card.setAttribute("title", `${link.title} - ${link.desc}`);
 
-                // 处理 Logo 图标逻辑
                 let logoContent = "";
                 if (link.logo && (link.logo.startsWith("http://") || link.logo.startsWith("https://") || link.logo.startsWith("./"))) {
-                    // 如果是图片链接
                     logoContent = `<img src="${link.logo}" alt="${link.title} Logo">`;
                 } else if (link.logo) {
-                    // 如果是 Emoji 或文本
                     logoContent = link.logo;
                 } else {
-                    // 留空则取首字
                     logoContent = link.title ? link.title.charAt(0) : "网";
                 }
 
