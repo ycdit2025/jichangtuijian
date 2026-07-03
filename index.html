@@ -7,7 +7,6 @@
     <title>2026年最新便宜好用机场推荐|科学上网机场整理|2026稳定机场推荐</title>
     <meta name="description" content="为您精选2026最新好用机场推荐列表，包含超高性价比的便宜机场、稳定高速的翻墙代理以及提供免费试用的机场推荐，助您畅快连接全球网络。">
     <meta name="keywords" content="机场推荐,便宜机场,免费机场,便宜好用机场推荐,2026最新好用机场推荐,网络加速器,翻墙梯子,SSR,V2ray,Clash专线机场">
-    <!-- =============================== -->
 
     <style>
         :root {
@@ -32,6 +31,10 @@
                 --primary-color: #3b82f6;
                 --desc-color: #aaa;
                 --icon-bg: #2a2a2a;
+                /* 暗黑模式按钮配色 */
+                --btn-bg: #1e1b4b;
+                --btn-color: #a5b4fc;
+                --btn-hover-bg: #312e81;
             }
         }
 
@@ -62,7 +65,7 @@
 
         header p {
             color: var(--desc-color);
-            margin: 0;
+            margin: 0 0 18px 0;
             font-size: 1.1rem;
         }
 
@@ -90,8 +93,7 @@
             background-color: var(--btn-hover-bg);
             transform: translateY(-1px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-        }  
-
+        }
 
         .category-section {
             margin-bottom: 30px;
@@ -112,14 +114,14 @@
 
         .card {
             background-color: var(--card-bg);
-            border-radius: 12px; /* 稍微圆润一点更现代 */
+            border-radius: 12px;
             padding: 18px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             transition: transform 0.2s, box-shadow 0.2s;
             text-decoration: none;
             color: inherit;
             display: flex;
-            align-items: flex-start; /* 开启左右布局 */
+            align-items: flex-start;
             gap: 14px;
         }
 
@@ -128,7 +130,6 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
-        /* Logo 图标容器样式 */
         .card-logo {
             width: 48px;
             height: 48px;
@@ -137,7 +138,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-shrink: 0; /* 防止图标被压缩 */
+            flex-shrink: 0;
             font-size: 1.5rem;
             font-weight: bold;
             color: var(--primary-color);
@@ -150,10 +151,9 @@
             object-fit: cover;
         }
 
-        /* 右侧文字区域 */
         .card-info {
             flex-grow: 1;
-            min-width: 0; /* 配合省略号使用 */
+            min-width: 0;
         }
 
         .card-title {
@@ -172,9 +172,9 @@
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
-            -webkit-line-clamp: 2; /* 左右布局下，2行描述视觉效果最好 */
+            -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
-        }
+        }    
     </style>
 </head>
 <body>
