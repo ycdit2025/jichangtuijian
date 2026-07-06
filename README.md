@@ -21,3 +21,9 @@
 喵子科学站专为海外追剧，跨境电商等需求涉及，支持macOS、iOS、Android、Windows等多平台，解锁流媒体.
 
 * 机场地址: <a href="https://www.mzkxz-invite.us/auth/register?code=wl7y" target="_blank">喵子科学站</a>
+
+## 念云
+
+念云线路路配置还行速度也不错解锁也到位，价格中规中矩，晚高峰电信实测可用,多种协议节点.
+
+* 机场地址: <a href="https://xnyun.wiki/#/register?code=ecUxurnm" target="_blank">念云</a>
