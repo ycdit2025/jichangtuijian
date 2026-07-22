@@ -39,6 +39,14 @@ Sparkcloud这个没有用过,时常搞促销活动,最低套餐是19元每月,�
 
 * 机场地址: <a href="https://www.sparkcloud.cc/register?code=hnTbDYX7" target="_blank">Sparkcloud</a>
 
+
+## EdgeX
+
+EdgeX是一个海外中转机场,综合表现还挺不错的,晚高峰单线程多线程表现均不错,解锁也很优秀,目前大陆网络环境较差,已经在非常努力的优化了.新用户首单优惠码：hello.
+
+* 机场地址: <a href="https://edge-invite.net/#/register?code=8AmxHiEg" target="_blank">EdgeX</a>
+
+
 ## 奶昔机场
 
 Nexitally 奶昔机场是一家成立于2017年的翻墙机场，自主研发面板，高端大机场，主打流畅稳定，不过近来也是受到针对，稳定性有所下降，如果想要高端体验，可以试试奶昔机场。
