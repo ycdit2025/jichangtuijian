@@ -46,6 +46,12 @@ EdgeX是一个海外中转机场,综合表现还挺不错的,晚高峰单线程�
 
 * 机场地址: <a href="https://edge-invite.net/#/register?code=8AmxHiEg" target="_blank">EdgeX</a>
 
+## 影子网络
+
+影子网络是一家便宜稳定的专线级机场，主打稳定、低延迟、高速连接，月付低至¥18.8/150GB，需要指定的自家app才能正常使用，持不限时流量包，适合备用、出差、轻度长期使用，支持 AnyTLS / Hysteria2 / VLESS，优惠券码：yzyzyz。
+
+* 机场地址: <a href="https://www.yingzi01.com/register?code=snxBcddp" target="_blank">影子机场</a>
+
 
 ## 奶昔机场
 
