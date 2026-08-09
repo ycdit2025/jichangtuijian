@@ -55,8 +55,7 @@ EdgeX是一个海外中转机场,综合表现还挺不错的,晚高峰单线程�
 
 ## Infiniport
 
-Infiniport是一家开业四五年的小众机场，目前线路已经由广州移动中转,改为AWS和Hinet海外中转机场,节点数量不多,解锁和速度还不错,有不限时套餐在售.
-
+Infiniport是一家开业四五年的小众机场，目前线路已经由广州移动中转，改为AWS和Hinet海外中转机场，节点数量不多，解锁和速度还不错，有不限时套餐在售。
 
 * 机场地址: <a href="https://infiniport.xyz/" target="_blank">Infiniport</a>
 
