@@ -53,6 +53,14 @@ EdgeX是一个海外中转机场,综合表现还挺不错的,晚高峰单线程�
 * 机场地址: <a href="https://www.yingzi01.com/register?code=snxBcddp" target="_blank">影子机场</a>
 
 
+## Infiniport
+
+Infiniport是一家开业四五年的小众机场，目前线路已经由广州移动中转,改为AWS和Hinet海外中转机场,节点数量不多,解锁和速度还不错,有不限时套餐在售.
+
+
+* 机场地址: <a href="https://infiniport.xyz/" target="_blank">Infiniport</a>
+
+
 ## 奶昔机场
 
 Nexitally 奶昔机场是一家成立于2017年的翻墙机场，自主研发面板，高端大机场，主打流畅稳定，不过近来也是受到针对，稳定性有所下降，如果想要高端体验，可以试试奶昔机场。
