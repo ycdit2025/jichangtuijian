@@ -21,6 +21,13 @@
 * 机场地址: <a href="https://shanhai.me/#/register?code=kASLLqRG" target="_blank">山海机场</a>
 
 
+## 鲨鱼云
+
+鲨鱼云是一家开业两年左右的机场,节点主用狗妈咪(Gomami),Neburst为备用方案,解锁还不错,多线路海外BGP中转,价格还比较良心,有在线设备数量限制.
+
+* 机场地址: <a href="https://shayux.com/register?invite_code=0xSTeimv" target="_blank">鲨鱼云</a>
+
+
 ## 喵子科学站
 
 喵子科学站专为海外追剧，跨境电商等需求涉及，支持macOS、iOS、Android、Windows等多平台，解锁流媒体.
